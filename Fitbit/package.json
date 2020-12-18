@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "6503a799-37f7-43bf-8775-23f1742e2a4e",
+    "appType": "app",
+    "appDisplayName": "HR Service",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "vulcan",
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "HR Service"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

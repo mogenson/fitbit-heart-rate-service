@@ -4,6 +4,8 @@ A pair of apps: one for a Fitbit smart watch, and one for an Android phone, that
 
 This let's you share real time heart rate data from the Fitbit watch with exercise equipment like Peloton, Strava, or Zwift.
 
+![Apps](./apps.jpg)
+
 Currently, the Fitbit smart watches measure heart rate, but do not advertise as generic heart rate monitors and can only maintain one Bluetooth Low Energy connection with the Fibit phone app. As a work around, we'll send heart rate data from the watch to the phone. Then, we'll run an Android app that appears as a Bluetooth Low Energy peripheral and advertises as a generic heart rate monitor. Finally, we'll push heart rate data from the Fitbit Android app to our HR Service Android app.
 
 ## Requirements
